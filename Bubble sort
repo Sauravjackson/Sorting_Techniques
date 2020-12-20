@@ -58,10 +58,11 @@ void bubbleSort(int Array[],int size){
 
 
 int main() {
+  
     int size = 0;
     cout<<"\nEnter the size of Array:";
     cin>>size;
-    if(size<=0)
+    if(size<=0)//Array size can'nt be neagtive or zero 
         cout<<"!!Give the array an Appropriate size!!";
     else {
         int Array[size];
